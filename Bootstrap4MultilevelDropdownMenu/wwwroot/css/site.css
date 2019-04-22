@@ -54,3 +54,34 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+
+
+
+
+/*@media all and (min-width:992px)*/
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*@media only screen and (min-width:767px)*/
+.mainmenu .collapse ul ul {
+    top: 0px;
+    left: 100%;
+}
+.menu-area {
+    width: 250px;
+}
+
+/*@media only screen and (min-width:767px)*/
+.mainmenu .collapse ul ul ul ul {
+    left: 100%;
+}
+
+
+
+
+
